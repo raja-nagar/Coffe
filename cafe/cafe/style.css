@@ -1,0 +1,332 @@
+ @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Dancing+Script:wght@500&family=Hind:wght@300&family=Josefin+Sans:ital,wght@0,500;1,300&family=Lobster&family=Noto+Sans:wght@100&family=Poppins:wght@500&family=Roboto:ital,wght@0,100;0,300;0,700;1,400&family=Rubik+Doodle+Triangles&family=Ubuntu:ital@0;1&family=Varela+Round&display=swap');
+
+ *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+ }
+ #heder{
+    background-image: linear-gradient(rgba(0,0,0,0.77),rgba(0,0,0,0.84)), url(bg-hero.jpg);
+    width: 100%;
+    height: 120vh;
+}
+.heding{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.logo{
+    color: rgb(230, 27, 27);
+    padding: 16px 18px;
+    font-size: 30px;
+    font-family: cursive;
+}
+nav ul, li{
+    display: flex;
+    gap: 22px;
+    text-decoration:  none;
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 23px;
+}
+a:hover{
+    color: orange;
+}
+.btn1{
+    background-color: rgb(246, 246, 116);
+    padding: 14px 16px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 20px;
+}
+.mani_div{
+    align-items: center;
+    text-align: start;
+    justify-content: center;
+    width: 90%;
+    padding: 25px 28px;
+    margin-left: 28px;
+    color: white;
+    display: flex;
+}
+.mani_div h2{
+    font-size: 54px;
+}
+p{
+    margin: 32px 10px 22px 10px;
+}
+.main_img{
+    width: 50%;
+    margin-left: 50px;
+   padding: 22px 28px; 
+    animation: gradient 50s linear infinite;
+}
+@keyframes gradient {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+       transform: rotate(360deg);
+    }
+}
+#main-sec{
+    display: flex;
+    padding: 26px 30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ccc;
+}
+.col-3{
+    width: 200px;
+    height: 250px;
+    background-color: #ffff;
+    padding: 14px 16px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 18px;
+}
+.icon{
+    font-size: 50px;
+    padding: 12px 22px;
+    color: rgb(246, 138, 98);
+}
+.col-3:hover{
+    background-color: orangered;
+    border-radius: 18px;
+    color: #ffff;
+}
+#main-therd{
+    margin-top: 40px;
+    padding: 12px 18px;
+}
+.hero{
+    display: flex;
+}
+.main-1{
+    gap: 10px;
+    display: flex;
+}
+.main-div-1{
+    padding: 23px 28px;
+}
+.main-div-1 h3{
+    font-size: 40px;
+    font-family: cursive;
+    color: rgb(243, 129, 21);
+}
+.main-div-1 h1 {
+    font-size: 60px;
+}
+.main-div-1 p{
+    margin-top: 30px;
+    padding: 0 19px;
+}
+ .num{
+
+display: flex;
+font-size: 80px;
+color: rgb(246, 132, 90);
+padding: 22px 28px;
+}
+.num p{
+    font-size: 20px;
+    color: black;
+}
+.btn2{
+    padding: 12px 28px;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#container{
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.mani-container h3{
+    padding: 12px;
+    font-size: 23px;
+    font-family: cursive;
+    color: orange;
+}
+.mani-container h1{
+    padding: 14px;
+    font-size: 40px;
+}
+.content-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    margin-top: 20px;
+    gap: 20px;
+    color: orange;
+    padding: 13px 17px;
+}
+.content-icon h2{
+    font-size: 20px;
+    gap: 30px;
+    color: black;
+}
+.container-col-5{
+    justify-content: center;
+    align-items: center;
+    padding: 22px 28px;
+    display: flex;
+}
+.col-55{
+    width: 50%;
+}
+span{
+    color: orange;
+}
+ .im, .h{
+    display: flex;
+    /* border: 1px solid #333; */
+    padding: 14px 11px;
+}
+.col-55 p{
+    border-bottom: 1px solid black;
+}
+#boocking{
+    margin-top: 6rem;
+}
+.boock-the-tebal{
+    display: flex;
+    padding: 12px 18px;
+    background-color: rgb(11, 11, 37);
+}
+.img-boock{
+    width: 50%;
+    padding: 10px 12px;
+    margin-top: 20px;
+}
+.form{
+    padding: 10px 32px;
+    margin-top: 20px;
+}
+.form h3{
+    font-family: cursive;
+    font-size: 33px;
+    color:  orangered;
+}
+.form h1{
+    font-size: 52px;
+    color: #ffff;
+}
+.form input, select{
+    height: 40px;
+    margin-top: 20px;
+    width: 230px;
+}
+textarea{
+    width: 470px;
+    margin-top: 20px;
+}
+#team{
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#team h3{
+    font-size: 30px;
+    color: orangered;
+    font-family: cursive;
+}
+#team h1{
+    font-size: 60px;
+    color: rgb(13, 13, 61);
+}
+.tems-in-cafe{
+    display: flex;
+    margin-top: 40px;
+    padding: 22px 28px;
+    justify-content: center;
+    align-items: center;
+}
+.tems-{
+    width: 200px;
+    height: 200px;
+    padding: 22px 28px;
+    background-color: #f0f0f0;
+    border-radius: 20px 25px 25px 20px;
+    
+}
+#footer{
+    margin-top: 10rem;
+    background-color: rgb(15, 15, 49);
+    color: #ffff;
+    margin-bottom: 80px;
+}
+.main-footer{
+    display: flex;
+    padding: 16px 22px;
+    justify-content: space-between;
+    text-align: center;
+    /* align-items: center; */
+}
+.Company h1{
+    margin-top: 30px;
+     color: orangered;
+}
+.Company li{
+    margin-top: 20px;
+}
+.Company h2{
+    margin-top: 20px;
+}
+
+.Company h3{
+    margin-top: 20px;
+    background-color: white;
+    padding: 22px 33px;
+    color: black;
+}
+.Company samp a{
+    color: black;
+    background-color: orange;
+    padding: 12px 16px;
+}
+
+@media (max-width: 768px){
+    h1{
+        color: green;
+    }
+    nav ul,a, li, button{
+        display: block;
+        width: 100%;
+        font-size: 20px;
+    }
+    #heder{
+        width: 100%;
+        height: auto;
+    }
+    #main-sec{
+        width: 100%;
+        height: auto;
+        display: block;  
+    }
+    #main-therd{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    #container{
+        width: 100%;
+        height: auto;
+        display: block;   
+    }
+    #team{
+        width: 100%;
+        height: auto;
+        display: block; 
+    }
+   
+}
